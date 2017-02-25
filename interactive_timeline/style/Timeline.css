@@ -1,0 +1,50 @@
+#container {
+	margin: 50px auto;
+}
+
+h1{
+	text-align: center;
+}
+
+#bbs_timeline {
+	border: 2px solid blue;
+	display: table;
+	font-size: 20px;
+	margin: auto;
+}
+
+#full_date {
+	text-align: center;
+	padding: 15px;
+}
+
+#current_year {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+#months_table {
+	border-collapse: collapse;
+	border-top: 2px solid blue;
+	border-bottom: 2px solid blue;
+	width: 100%;
+}
+
+#months_table td{
+	border-right: 1px solid blue;
+	padding: 15px;
+}
+
+#months_table td:last-child{
+	border-right: none;
+}
+
+#current_month {
+	text-align: center;
+	padding: 15px;
+}
+
+.month:hover {
+	color: white;
+	background-color: blue;
+}
